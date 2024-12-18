@@ -112,7 +112,7 @@ def train_model(net, loss_type, learning_rate, trainloader, validloader, device,
 
             current_loss = sum(values_loss)/len(values_loss)
             net.train()
-            print("current loss:", current_loss, "best loss :",best_eval_loss)
+            
             if current_loss < best_eval_loss:
                 best_eval_loss = current_loss
                 epochs_no_improve = 0
