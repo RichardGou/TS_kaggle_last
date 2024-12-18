@@ -1,0 +1,9 @@
+__pycache__/
+data/traffic/traffic.txt
+data/power_consumption/powerconsumption.csv
+.DS_Store
+notebooks/
+weights_models/
+figures/
+wandb/
+metrics/
