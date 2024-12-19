@@ -20,7 +20,7 @@ def get_traffic_data(path_data, stride, batch_size=64, output_length=24):
 
     time_series = df.iloc[:, 0].values
     input_length = 168  # Points passés (1 semaine)
-    output_length = 24  # Points futurs (24 heures)
+    #output_length = 24  # Points futurs (24 heures)
     train_split = 0.6
     valid_split = 0.2
 
