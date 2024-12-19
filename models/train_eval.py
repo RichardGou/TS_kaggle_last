@@ -348,10 +348,10 @@ def compare_models(training, net_gru_dilate, net_gru_mse, net_gru_rrmse, net_gru
             print_every=eval_every,
             )
     
-        torch.save(net_gru_dilate.state_dict(), 'weights_models/net_gru_dilate.pth')
-        torch.save(net_gru_mse.state_dict(), 'weights_models/net_gru_mse.pth')
-        torch.save(net_gru_dtw.state_dict(), 'weights_models/net_gru_dtw.pth')
-        torch.save(net_gru_rrmse.state_dict(), 'weights_models/net_gru_rrmse.pth')
+        #torch.save(net_gru_dilate.state_dict(), 'weights_models/net_gru_dilate.pth')
+        #torch.save(net_gru_mse.state_dict(), 'weights_models/net_gru_mse.pth')
+        #torch.save(net_gru_dtw.state_dict(), 'weights_models/net_gru_dtw.pth')
+        #torch.save(net_gru_rrmse.state_dict(), 'weights_models/net_gru_rrmse.pth')
 
     else:
         print("-"*130)
