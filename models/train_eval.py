@@ -462,6 +462,7 @@ def compare_gammas(gammas, output_length, device, batch_size, trainloader,
         torch.cuda.empty_cache()
 
     print("-" * 130)
+    print("total:", metrics)
     return metrics
 
 
