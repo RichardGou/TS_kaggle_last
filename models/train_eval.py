@@ -470,6 +470,7 @@ def compare_alphas(alphas, gamma, output_length, device, batch_size, trainloader
                    validloader, testloader, n_epochs, wandb_logger, data, eval_every):
     print("-" * 130)
     print("TRAINING FOR DIFFERENT ALPHAS")
+    print("OUPUT LENGHT IN TRAINING FUNCTION:", output_length)
     
     metrics = {
         "alpha": [],
