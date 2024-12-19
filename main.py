@@ -50,7 +50,7 @@ def main():
         trainloader, validloader, testloader = get_synthetic_data(output_length, batch_size=batch_size)
 
     elif args.data == "traffic":
-        output_length = 36
+        output_length = 24
         print("OUTPUT LENGTH TRAFFIC : ",output_length)
         path_data = args.path_data or "data/traffic/traffic.txt"
         batch_size=32
